@@ -2,6 +2,8 @@
 
 Control your Sharp Aquos television, remotely, via TCP/IP
 
+Note: This project is not affiliated with Sharp Inc.
+
 ## Quick start
 
 ### Enable the remote control
@@ -48,7 +50,7 @@ in your terminal window.
 You can install the Python API through pip
 ...
 
-## Other languages
+### Other languages
 
 - C: https://github.com/jdwhite/aquosctl
 - Go: https://github.com/golliher/go-sharptv
@@ -63,9 +65,14 @@ You can install the Python API through pip
 
 - pages 8-3 (101) through 8-8 (106) in the
   [sharp user manual](http://files.sharpusa.com/Downloads/ForHome/HomeEntertainment/LCDTVs/Manuals/2014_TV_OM.pdf)
-- pagezs 58 through 59 in another
+- pages 58 through 59 in another
   [sharp user manual](http://www.sharp.co.uk/cps/rde/xbcr/documents/documents/om/11_lcd-tv/LC40-46LE830E-RU-LE831E-RU_OM_GB.pdf)
 
-## Table of supported models
+## Table of models and firmwares
 
-...
+| Model       | Firmware version | Supported | List of available commands |
+|-------------|------------------|-----------|----------------------------|
+| LC-40LE830E | 208E1204111      |    yes    |                            |
+
+### How to check model name and firmware version
+
