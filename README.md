@@ -46,11 +46,11 @@ in your terminal window.
 | Programming language | Library |
 |----------------------|---------|
 | C | [aquosctl](https://github.com/jdwhite/aquosctl) |
-| Go | [go-sharptv](https://github.com/golliher/go-sharptv) [aquostv](https://github.com/tknhs/aquostv) |
+| Go | [go-sharptv](https://github.com/golliher/go-sharptv),  [aquostv](https://github.com/tknhs/aquostv) |
 | Groovy | [device-sharp-aquos](https://github.com/KristopherKubicki/device-sharp-aquos) |
 | Java | [Aquarium](https://github.com/kfriede/Aquarium) |
 | Javascript | [sharp-aquos-remote-control](https://github.com/benburkhart1/sharp-aquos-remote-control) |
-| Python | [sharp_aquos_rc](https://github.com/sharp-aquos-remote-control/sharp_aquos_rc) [aquos-module-Python](https://github.com/thehappydinoa/aquos-module-Python) |
+| Python | [sharp_aquos_rc](https://github.com/sharp-aquos-remote-control/sharp_aquos_rc),  [aquos-module-Python](https://github.com/thehappydinoa/aquos-module-Python) |
 | Ruby | [sharp_aquos_control](https://github.com/zxjinn/sharp_aquos_control) |
 
 ## Resources
