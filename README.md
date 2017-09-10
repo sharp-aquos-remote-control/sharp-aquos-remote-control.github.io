@@ -1,5 +1,3 @@
-# Sharp aquos remote control
-
 Control your Sharp Aquos television, remotely, via TCP/IP
 
 Note: This project is not affiliated with Sharp Inc.
@@ -45,21 +43,17 @@ in your terminal window.
 
 ## Available APIs
 
-### Python
-
-You can install the Python API through pip
-...
-
-### Other languages
-
-- C: https://github.com/jdwhite/aquosctl
-- Go: https://github.com/golliher/go-sharptv
-- Go: https://github.com/tknhs/aquostv
-- Groovy: https://github.com/KristopherKubicki/device-sharp-aquos
-- Java: https://github.com/kfriede/Aquarium
-- Javascript: https://github.com/benburkhart1/sharp-aquos-remote-control
-- Python: https://github.com/thehappydinoa/aquos-module-Python
-- Ruby: https://github.com/zxjinn/sharp_aquos_control
+| Programming language | Library |
+|----------------------|---------|
+| C | https://github.com/jdwhite/aquosctl |
+| Go | https://github.com/golliher/go-sharptv |
+| Go | https://github.com/tknhs/aquostv |
+| Groovy | https://github.com/KristopherKubicki/device-sharp-aquos |
+| Java | https://github.com/kfriede/Aquarium |
+| Javascript | https://github.com/benburkhart1/sharp-aquos-remote-control |
+| Python | https://github.com/sharp-aquos-remote-control/sharp_aquos_rc |
+| Python | https://github.com/thehappydinoa/aquos-module-Python |
+| Ruby | https://github.com/zxjinn/sharp_aquos_control |
 
 ## Resources
 
