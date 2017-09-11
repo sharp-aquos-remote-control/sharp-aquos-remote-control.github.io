@@ -7,7 +7,6 @@ Note: This project is not affiliated with Sharp Inc.
 - [Quick start](index.html#quick-start)
   - [Enable the remote control](index.html#enable-the-remote-control)
   - [Test](index.html#test)
-  - [Test](index.html#test)
 - [Available APIs](index.html#available-apis)
 - [Resources](index.html#resources)
 - [Table of models and firmwares](index.html#table-of-models-and-firmwares)
