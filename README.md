@@ -2,6 +2,18 @@ Control your Sharp Aquos television, remotely, via TCP/IP
 
 Note: This project is not affiliated with Sharp Inc.
 
+## List of contents
+
+- [Quick start](index.html#quick-start)
+  - [Enable the remote control](index.html#enable-the-remote-control)
+  - [Test](index.html#test)
+  - [Test](index.html#test)
+- [Available APIs](index.html#available-apis)
+- [Resources](index.html#resources)
+- [Table of models and firmwares](index.html#table-of-models-and-firmwares)
+  - [How to check model name and firmware version](index.html#how-to-check-model-name-and-firmware-version)
+- [License of this document](index.html#license-of-this-document)
+
 ## Quick start
 
 ### Enable the remote control
@@ -55,10 +67,10 @@ in your terminal window.
 
 ## Resources
 
-- pages 8-3 (101) through 8-8 (106) in the
-  [sharp user manual](http://files.sharpusa.com/Downloads/ForHome/HomeEntertainment/LCDTVs/Manuals/2014_TV_OM.pdf)
-- pages 58 through 59 in another
-  [sharp user manual](http://www.sharp.co.uk/cps/rde/xbcr/documents/documents/om/11_lcd-tv/LC40-46LE830E-RU-LE831E-RU_OM_GB.pdf)
+| Link | Page(s) |
+|------|---------|
+| [sharp user manual](http://files.sharpusa.com/Downloads/ForHome/HomeEntertainment/LCDTVs/Manuals/2014_TV_OM.pdf) | 8-3 (101) through 8-8 (106) |
+| [sharp user manual](http://www.sharp.co.uk/cps/rde/xbcr/documents/documents/om/11_lcd-tv/LC40-46LE830E-RU-LE831E-RU_OM_GB.pdf) | pages 58 through 59 |
 
 ## Table of models and firmwares
 
