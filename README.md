@@ -13,8 +13,8 @@ Note: This project is not affiliated with Sharp Inc.
 - [Available APIs](index.html#available-apis)
 - [Resources](index.html#resources)
 - [Table of models and firmwares](index.html#table-of-models-and-firmwares)
+  - [Notes for the LC-43LE653U model](index.html#notes-for-the-lc-43le653u-model)
   - [How to check model name and firmware version](index.html#how-to-check-model-name-and-firmware-version)
-- [Contributors](index.html#contributors)
 - [License of this document](index.html#license-of-this-document)
 
 ## Reasons
@@ -100,18 +100,56 @@ development
 
 | Link | Page(s) |
 |------|---------|
-| [sharp user manual 1](http://files.sharpusa.com/Downloads/ForHome/HomeEntertainment/LCDTVs/Manuals/2014_TV_OM.pdf) | 8-3 (101) through 8-8 (106) |
-| [sharp user manual 2](http://www.sharp.co.uk/cps/rde/xbcr/documents/documents/om/11_lcd-tv/LC40-46LE830E-RU-LE831E-RU_OM_GB.pdf) | pages 58 through 59 |
+| [sharp user manual 1](http://files.sharpusa.com/Downloads/ForHome/HomeEntertainment/LCDTVs/Manuals/2014_TV_OM.pdf) | 8-3 (101) -> 8-8 (106) |
+| [sharp user manual 2](http://www.sharp.co.uk/cps/rde/xbcr/documents/documents/om/11_lcd-tv/LC40-46LE830E-RU-LE831E-RU_OM_GB.pdf) | 58 -> 59 |
+| [sharp user manual 3](http://files.sharpusa.com/Downloads/ForHome/HomeEntertainment/LCDTVs/Manuals/mon_man_LC70LE640U_LC60LE640U_LC52LE640U_LC70C6400U_LC60C6400U_LC52C6400U_LC80LE633U.pdf) | 57 -> 58|
 
 ## Table of models and firmwares
 
-| Model       | Firmware version | Supported | List of available commands |
-|-------------|------------------|-----------|----------------------------|
-| LC-40LE830E | 208E1204111      |    yes    |                            |
+| Model       | Firmware version | IP protocol version | Supported | List of available commands |
+|-------------|------------------|---------------------|-----------|----------------------------|
+| LC-40LE830E | 208E1204111      |                     |  yes      |                            |
+| LC-70C6400U | 222U1302091      |                     |  yes      |                            |
+| LC-43LE653U | SW 2.13.1        |                     |  partial  |                            |
+
+### Notes for the LC-43LE653U model
+
+Quoted from the
+[go-proveSharpAPI](https://github.com/golliher/go-proveSharpAPI/blob/master/report%20to%20sharp.md)
+repository
+
+> Only what I call "one-way" commands are implemented in the new TV.  These are 
+> sufficient to duplicate the functionality of a handheld remote control, but 
+> insufficient for automation.
+>
+> The more useful commands for automation that are able to directly set a value 
+> are **NOT working**.
+>
+> Examples:
+>
+> - Directly set the input to input #4 without sending the input key four times.    
+> (i.e.   "IAVD4")
+> - Directly set the volume level to 25 without sending the volume up keypress 25 
+> times. (i.e. "VOLM25")
+> 
+> Moreover, a second class of useful commands also does **NOT work**.  These 
+> are the commands that return information when called.
+>
+> Examples of useful status commands that do NOT work:
+>
+> - Get the current power state on/off state (i.e. "POWR?")
+> - Get the current volume level (i.e. "VOLM?")
+> - Get the current input source (i.e. "IAVD?")
 
 ### How to check model name and firmware version
 
-## Contributors
+- Model name: Check on the back of your tv for a label.
+
+- Firmare version:
+
+    $ telnet IP_ADDRESS_OF_THE_TV REMOTE_CONTROL_PORT
+    SWVN1
+
 
 ## License of this document
 
